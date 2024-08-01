@@ -212,7 +212,7 @@ form :where(input, textarea){
   border: 1px solid #999;
 }
 form :where(input, textarea):focus{
-  box-shadow: 0 2px 4px rgba(0,0,0,0.11);
+  box-shadow: 0 2px 4px rgba(0,0,0,0.11),inset 0 2px 4px rgba(17, 17, 17, 0.11) ;
 }
 form .row textarea{
   height: 150px;
